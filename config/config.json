@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "cardio",
+    "password": "cardio",
+    "database": "cardio",
+    "host": "localhost",
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "cardio",
+    "password": "cardio",
+    "database": "cardio",
+    "host": "localhost",
+    "dialect": "postgres"
+  },
+  "production": {
+    "username": "cardio",
+    "password": "cardio",
+    "database": "cardio",
+    "host": "localhost",
+    "dialect": "postgres"
+  }
+}

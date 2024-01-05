@@ -1,0 +1,20 @@
+version: '3'
+services:
+  postgresql:
+    image: postgres
+    container_name: cardio
+    ports:
+      - '5432:5432'
+    environment:
+      - POSTGRES_HOST=localhost
+      - POSTGRES_USER=cardio
+      - POSTGRES_PASSWORD=cardio
+      - POSTGRES_DATABASE=cardio
+    command: postgres
+    restart: always
+
+  redis:
+    image: redis:alpine3.14
+    container_name: redis-cardio
+    ports:
+      - '6379:6379'
